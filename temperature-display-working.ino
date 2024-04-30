@@ -138,10 +138,10 @@ void ringToSerial(void *parameter) {
 
     //write into ring buffer
     RingBuffer_Read(&temperBuffer, &ringRec);
-    // lcd.print(ringRec);
+    lcd.print(ringRec);
     // Serial.println(ringRec);
-    // lcd.setCursor(2,1);
-    /
+    lcd.setCursor(1,1);
+    
 
 
   }
